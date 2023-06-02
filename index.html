@@ -14,31 +14,38 @@
     .attribution a { color: hsl(228, 45%, 44%); }
     body{
      background-color:  hsl(212, 45%, 89%);
+   
+     font-size: 0.938rem;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+    align-items: center;
     }
     .container{
-      width:300px;
-      height: 500px;
+     max-width:18.75rem; 
       justify-items: center;
-          margin-left: 38%;
       margin-top:15%;
       background-color: hsl(0, 0%, 100%);
       border-radius: 5%;
       display: flex;
       flex-direction: column;
+
     }
     .code{
-      width:300px;
+      
+      margin:1.25rem;
     
     }
     .inside-code{
-      width:260px;
-     
+      display: block; 
+      max-width:100%; 
       border-radius: 5%;
-      margin: 20px;
+    
     }
     .inside{
-      width:240px;
-     margin-left: 30px;
+      
+      margin:0.2rem 1.25rem 1.25rem 2rem;
+     /* margin-left: 30px; */
      
     }
     .title{
@@ -47,16 +54,14 @@
       font-weight: 700;
     }
     .par{
-      font-size: 15px;
+      
       font-family: 'Outfit', sans-serif;
       color:hsl(220, 15%, 55%);
       font-weight: 400;
      }
      footer{
-      justify-items: center;
       margin-top: 20px;
-     margin-left: -80px;
-      
+  
      }
      
      @media screen and  (max-width:375px){
@@ -75,7 +80,7 @@
       <img class="inside-code" src="./images/image-qr-code.png" alt="IQ Code">
     </div>
     <div class="inside">
-      <h3 class="title">Improve your front-end skills by building projects</h3>
+      <h2 class="title">Improve your front-end skills by building projects</h2>
 
       <p class="par">Scan the QR code to visit Frontend Mentor and 
         take your coding skills 
